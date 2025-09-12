@@ -1,5 +1,3 @@
-## Seed Grove Kit Shield
-
 ## Arduino Shield Connections
 The Grove Base Shield V2 is an Arduino compatible board with Grove ports. This component fits directly on top of the Arduino UNO ports allowing for connections to be easily made to grove seeeduino modules (sensors) and multiple I2C connections. 
 1. 4 Analog Ports: A0, A1, A2 and A3. 
@@ -19,3 +17,5 @@ When connecting modules to the arduino, ensure wires are connected to the correc
 For analog and digital pins, there are 4 connection points but only 3 are needed. The pin number that is printed on the shield next to the port is the connection that should be used for data transmission. <br>  
 
 ![Arduino Shield Diagram](Images/Base_Shield.png)
+
+To read about the sensors correlated to the Seed Grove kit, reference the [sensors folder] ()!
