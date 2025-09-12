@@ -113,7 +113,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * ### Hookup
     * Using one of the analog ports (A0) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
  * ### Code
-    * [Temp Test Code](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0/blob/master/Grove_Light_Sensor/Grove_Light_Sensor.ino)
+    * [Light Sensor Test Code](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0/blob/master/Grove_Light_Sensor/Grove_Light_Sensor.ino)
 
 ***
 ### **Relay**
@@ -125,7 +125,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * ### Hook up
     * Using one of the digital ports (D8) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
 * ### Code
-    * [Temp Test Code](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0/blob/master/Grove_Relay/Grove_Relay.ino)
+    * [Relay Test Code](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0/blob/master/Grove_Relay/Grove_Relay.ino)
 
 ***
 ### Rotary Angle Sensor
@@ -137,4 +137,4 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * ### Hook up
     * Using one of the analog ports (A0) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
 * ### Code
-    * [Temp Test Code](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0/blob/master/Grove_Rotary_Angle_Sensor/Grove_Rotary_Angle_Sensor.ino)
+    * [Rotary Angle Sensor Test Code](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0/blob/master/Grove_Rotary_Angle_Sensor/Grove_Rotary_Angle_Sensor.ino)
