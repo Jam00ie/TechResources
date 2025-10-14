@@ -19,7 +19,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * #### Hookup
    * Using one of the digital ports (D7) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
 * #### Code
-   * [Button/Touch Test Code](Arduino_Code/Part_Testing/ButtonAndTouchSensor_test/ButtonAndTouchSensor_test.ino?ref_type=heads)
+   * [Button/Touch Test Code](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/tree/main/Dashboard/Arduino_Code/Part_Testing/ButtonAndTouchSensor_test)
 
 
 ***
@@ -32,7 +32,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * #### Hookup
    * Using one of the digital ports (D8) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
 * #### Code
-   * [Buzzer Test Code](Arduino_Code/Part_Testing/Buzzer_test/Buzzer_test.ino?ref_type=heads)
+   * [Buzzer Test Code](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/main/Dashboard/Arduino_Code/Part_Testing/Buzzer_test/Buzzer_test.ino)
 
 ***
 ### **LCD Display**
@@ -46,7 +46,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
    ![Pullup Resistors](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/main/Dashboard/Images/Pullup_Resitors.png?raw=true) <br>
    * The LCD Display uses I2C ports, so connect the VCC, GND, SDA, and SCL connection to the corresponding ports on the Base Shield.
 * #### Code
-   * [LCD Display Test Code](Arduino_Code/Part_Testing/LCD_test/LCD_test.ino?ref_type=heads)
+   * [LCD Display Test Code](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/main/Dashboard/Arduino_Code/Part_Testing/LCD_test/LCD_test.ino)
 
 ***
 ### **LEDs** 
@@ -63,7 +63,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
    * The white wire on the 4-pin should not connect to anything.
 * #### Code
    * Running the code below with the correct pin setup should turn the LEDs in circuit with the arduino a light purple color. Change the “red”, “green”, and “blue” values and upload code to get different color outputs! 
-   * [LED Test Code](Arduino_Code/Part_Testing/LED_test/LED_test.ino?ref_type=heads) <br><br>
+   * [LED Test Code](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/main/Dashboard/Arduino_Code/Part_Testing/LED_test/LED_test.ino) <br><br>
 
 ***
 ### **Servo**
@@ -75,7 +75,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * #### Hookup
    * Using one of the digital ports (D5) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
 * #### Code
-   * [Servo Test Code](Arduino_Code/Part_Testing/Servo_test/Servo_test.ino?ref_type=heads)
+   * [Servo Test Code](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/main/Dashboard/Arduino_Code/Part_Testing/Servo_test/Servo_test.ino)
 
 
 ***
@@ -88,7 +88,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * #### Hookup
    * Using one of the analog ports (A0) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
 * #### Code
-   * [Sound Sensor Test Code](Arduino_Code/Part_Testing/SoundSensor_test/SoundSensor_test.ino?ref_type=heads)<br><br>
+   * [Sound Sensor Test Code](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/main/Dashboard/Arduino_Code/Part_Testing/SoundSensor_test/SoundSensor_test.ino)<br><br>
 
 
 ***
@@ -101,7 +101,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * #### Hookup
    * Using one of the analog ports (A0) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
 * #### Code
-   * [Temp Test Code](Arduino_Code/Part_Testing/TemperatureSensor_test/TemperatureSensor_test.ino?ref_type=heads)
+   * [Temp Test Code](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/main/Dashboard/Arduino_Code/Part_Testing/TemperatureSensor_test/TemperatureSensor_test.ino)
  
 ***
 ### **Light Sensor**
@@ -121,7 +121,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * ### Libraries
     * No additional Libraries Required
 * ### Documents
-    *[Datasheet](https://seeeddoc.github.io/Grove-Relay/)
+    * [Datasheet](https://seeeddoc.github.io/Grove-Relay/)
 * ### Hook up
     * Using one of the digital ports (D8) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
 * ### Code
@@ -133,7 +133,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 * ### Libraries
     * No additional Libraries Required
 * ### Documents
-    *[Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/813/Grove_Rotoary_Angle_Sensor_Web.pdf)
+    * [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/813/Grove_Rotoary_Angle_Sensor_Web.pdf)
 * ### Hook up
     * Using one of the analog ports (A0) on the Base Shield, simply use the provided 4-prong connection wires to directly connect the sensor to the Base Shield, ensuring proper connections are made (GND to GND, VCC to VCC, etc.)
 * ### Code
