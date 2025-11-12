@@ -1,5 +1,5 @@
 # Arduino Set up Guide
-A step-by-step guide on how to install and prepare you're Arduino Environment
+A step-by-step guide on how to install and prepare your Arduino Environment
 
 # Content:
 1. [Arduino IDE Setup](#1-arduino-ide-setup)
