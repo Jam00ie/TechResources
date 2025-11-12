@@ -38,7 +38,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 ### **LCD Display**
 * [Part Link](https://wiki.seeedstudio.com/Grove-LCD_RGB_Backlight/)
 * #### Libraries
-   * [Grove LCD RGB Backlight](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight) - Also available in Arduino IDE Library Manger
+   * [Grove LCD RGB Backlight](https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight) - Also available in Arduino IDE Library Manager
 * #### Documents
    * [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1081/104030001_Web.pdf)
 * #### Hookup
@@ -52,7 +52,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 ### **LEDs** 
 * [Part Link](https://www.digikey.ca/en/products/detail/sparkfun-electronics/COM-15206/10064425?s=N4IgTCBcDaIIwFYBsAOAtAYQPIFk2LAAYk0A5AERAF0BfIA)
 * #### Libraries
-   * [Adafruit_NeoPixel](https://docs.arduino.cc/libraries/adafruit-neopixel/) - Also available in Ardiuno IDE Library Manger
+   * [Adafruit_NeoPixel](https://docs.arduino.cc/libraries/adafruit-neopixel/) - Also available in Ardiuno IDE Library Manager
 * #### Documents
    * [Hookup Guide](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1179/WS2812_Breakout_Hookup_Guide.pdf)
 * #### Hookup
@@ -69,7 +69,7 @@ For the test codes provided for each sensor, open a blank Arduino IDE tab to cop
 ### **Servo**
 * [Part Link](https://wiki.seeedstudio.com/Grove-Servo/)
 * #### Libraries
-   * [Servo](https://docs.arduino.cc/libraries/servo/) - Also available in Ardiuno IDE Library Manger
+   * [Servo](https://docs.arduino.cc/libraries/servo/) - Also available in Ardiuno IDE Library Manager
 * #### Documents
    * [Manual](https://www.manualslib.com/manual/1836691/Seeed-Grove-Servo-Series.html)
 * #### Hookup
