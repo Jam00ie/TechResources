@@ -18,4 +18,4 @@ For analog and digital pins, there are 4 connection points but only 3 are needed
 
 ![Arduino Shield Diagram](Images/Base_Shield.png)
 
-To read about the sensors correlated to the Seed Grove kit, reference the [sensors folder](./Sensors/GUIDE.md)!
+To read about the sensors correlated to the Seed Grove kit, reference the [sensors folder](../GUIDE.md)!
