@@ -53,5 +53,5 @@ Any test code that uses the serial port runs a setup function to initialize the 
 #### Python Code
 * Python can also send and recieve messages through the serial port using the [PySerial](https://pyserial.readthedocs.io/en/latest/) library
 * To install this library, follow steps 2.1 and 2.2 [here](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/Machine_Learning/Machine_Vision_Guide.md), and then run ```pip install pyserial```
-* [Python code to communicate with Arduino](./Sameple_Code/ArduinoToPython.py), to be used with an Arduino running the code above
+* [Python code to communicate with Arduino](./Sample_Code/ArduinoToPython.py), to be used with an Arduino running the code above
 * You will likely need to close the serial monitor in your Arduino IDE in order to run this code
