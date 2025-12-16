@@ -14,6 +14,7 @@ A Python virtual environment (venv) is a self-contained directory that allows yo
     - Enter `python -m venv [name-of-your-venv]` in the same terminal. 
     This should create a new folder with the name of your venv under your directory
 3. Activate the venv:
+    - You might get a prompt in VSCode after creating the venv, asking if you want to use the new venv for your project. If you select yes, you don't need to do the following.
     - For Mac/Linux users: `source ./name-of-your-venv/bin/activate `
     - For Windows users: `name-of-your-venv/Scripts/activate`
     - When prompted, type R and then enter to run once
