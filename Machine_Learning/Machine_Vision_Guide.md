@@ -9,8 +9,8 @@
 ### 3. [Computer Vision Basics](#3)
    - 3.1. [Basic OpenCV Features](#3.1)
    - 3.2. [OpenCV Basic Implementations](#3.2)
-<!-- ### 4. [Machine Learning](#4)
-   - 4.1 [Running the Model](#4.1) -->
+### 4. [Machine Learning](#4)
+   - 4.1 [Running the Model](#4.1)
 
 <h2 id = '1'> 1. Introduction</h2>
 
@@ -106,3 +106,39 @@ Here are some important concepts and features of OpenCV that beginners should kn
  - This code demonstrates the most popular edge detection algorithm, the Canny algorithm with the [```cv2.Canny()```](https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html) method. 
 
 **For more tutorials, check out the [official OpenCV-Python Tutorials page](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html).**
+
+
+<h2 id = '4'> 4. Machine Learning</h2>
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables systems to learn patterns from data and make predictions or decisions without being explicitly programmed.
+
+Once an ML model is trained, it must be integrated into an application so its predictions can be accessed and used in real-world scenarios.
+
+The following sections outline the general ML workflow involved in developing and deploying this type of model.
+
+<h3 id = '4.1'> 4.1 Runing the Model</h3>
+Machine learning development typically follows a structured workflow consisting of several key stages. The steps below describe the stages relevant to this project.
+
+<h4 id = '4.1.1'> Data Collection</h4>
+Data collection involves gathering raw data that represents the classes or categories you want the model to recognize.
+- You define your own categories
+- When selecting your own data, ensure the following:
+  - Videos are in .mp4 format
+  - Each video contains at least two clear repetitions of the action
+  - Data includes recordings from multiple angles to improve model robustness
+
+<h4>Data Cleaning and Preprocessing</h4>
+This step prepares raw data for training by improving consistency and usability.
+- Data cleaning includes handling missing values, removing corrupted frames, and correcting inconsistencies.
+- Data preprocessing involves:
+  - Standardizing formats
+  - Scaling numerical values
+  - Encoding categorical labels
+
+<h4>Model Selection</h4>
+Model selection involves choosing an appropriate algorithm based on the type of data, the structure of the problem, and the desired output. Different models are suited to different tasks, and understanding their strengths and limitations helps guide this decision.
+
+<h4>Model Training</h4>
+
+<h4>Model Evaluation and Tuning</h4>
+
+<h4>Model Deployment</h4>
