@@ -13,7 +13,7 @@
 <h2 id = '1'> 1. Introduction</h2>
 
 This guide will walk you through a machine learning (ML) model that you can train to identify exercises in combination with Google's Mediapipe and OpenCV. This ML model is an LSTM (long short-term memory) model, which can make predictions from sequences of data.
-If you've never worked with machine learning before, check out this [Getting_Started_with_Machine_Learning.md](Technologies-Utilized-for-Idea-s-Clinic-Challenges/Machine_Learning/Getting_Started_with_Machine_Learning.md) guide. It will introduce you to machine learning (ML) and explain the workflow that guides development and deployment of ML models.
+If you've never worked with machine learning before, check out this [Getting_Started_with_Machine_Learning.md](Machine_Learning/Getting_Started_with_Machine_Learning.md) guide. It will introduce you to machine learning (ML) and explain the workflow that guides development and deployment of ML models.
 
 <h2 id = '2'> 2. Installation</h2>
 
