@@ -5,11 +5,11 @@ Here are some important concepts and features of OpenCV that beginners should kn
 <h3> Image Channels </h3>
 
 - **Grayscale images** have 1 channel that represents the intensity level
-   - <img src='./Machine_Vision/images/gray_scale.png' height=200>
+   - <img src='./images/gray_scale.png' height=200>
    - the smaller the number is, the darker the pixel
 
 - **Colour images** have 3 channels (Red, Green, Blue)
-   - <img src='./Machine_Vision/images/rgb_wheel.png' width=450>
+   - <img src='./images/rgb_wheel.png' width=450>
 
 <h3> BGR vs RGB Colour Format </h3>
 
