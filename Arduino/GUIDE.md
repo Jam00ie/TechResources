@@ -21,7 +21,7 @@ Before you can begin coding, you should configure your Arduino IDE to the specif
 **If you don't know the port ID, go to your "Device Manager" to find the ID under "Ports".
 
 ### Installing Libraries
-The required libraries for each sensor are listed in [Sensor Setup](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/Sensors/GUIDE.md)<!-- (https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/sensors/README.md#sensor-setup) -->, use this [Link](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/) for more help installing libraries.
+The required libraries for each sensor are listed in [Sensor Setup](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Sensors/GUIDE.md)<!-- (https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/sensors/README.md#sensor-setup) -->, use this [Link](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/) for more help installing libraries.
 #### Method 1: Using the Arduino R4
 Search for the Library name in the ‘library manager” in the Arduino IDE and install. <br>
 ![Library Manger](Images/Arduino_Library_Manager.png)
@@ -52,6 +52,6 @@ Any test code that uses the serial port runs a setup function to initialize the 
 
 #### Python Code
 * Python can also send and recieve messages through the serial port using the [PySerial](https://pyserial.readthedocs.io/en/latest/) library
-* To install this library, follow steps 2.1 and 2.2 [here](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/Machine_Learning/Machine_Vision_Guide.md), and then run ```pip install pyserial```
+* To install this library, follow the steps in this [Getting Started with Python Guide](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Python/Getting_Started_with_Python.md), and then run ```pip install pyserial```
 * [Python code to communicate with Arduino](./Sample_Code/ArduinoToPython.py), to be used with an Arduino running the code above
 * You will likely need to close the serial monitor in your Arduino IDE in order to run this code
