@@ -1,7 +1,7 @@
 # Dual Accelerometer Guide
 
 ## 1. Introduction
-For a general start up guide on sensors, refer to [this guide](./GUIDE.md)
+For a general start up guide on sensors, refer to [this guide](./GUIDE.md).
 
 ## 2. Sensor Setup
 In order to utilize 2 accelerometers, the sensors need to have different addresses for the Arduino to recognize that data is coming from different sources. The address pin is found on the back of the sensor. By soldering over the address pin (left) on one of the accelerometers, this will change its address from 0x68 to 0x69. 
@@ -46,14 +46,13 @@ Unfortunately, the DFRobot BMX160 Library in Arduino does not have a designated 
 
       Modified:
   	
-      `    bool begin( ==uint8_t addr==);`
-
+      `    bool begin( ==uint8_t addr==);` <br><br>
+  	
       Original:
   	
       `    uint8_t _addr == = 0x68==;`
 
       Modified:
-
   	
       `    uint8_t _addr;`
 
