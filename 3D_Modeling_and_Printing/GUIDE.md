@@ -25,9 +25,9 @@ The type of printers being used in this guide use a 3D printing process called F
 Before you can print, you need to upload your STL file into a slicer software, where you can customize your settings, such as print orientation, infill, and supports. 
 Depending on the 3D printer you use, you might need to use a different slicer:
 
-[Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/)
-[Raise3D Slicer](https://www.raise3d.com/download/)
-[Bambu Lab Slicer](https://bambulab.com/en-ca/download/studio)
+- [Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/)
+- [Raise3D Slicer](https://www.raise3d.com/download/)
+- [Bambu Lab Slicer](https://bambulab.com/en-ca/download/studio)
 
 ### 3.2. Print Orientation 
 One important factor that you should consider before you 3D print your part is part orientation (also called build orientation). How you orient your parts in the printer will play a significant role in delivering the final quality you want. For this overview, consider a cylinder with its center axis vertical.  
