@@ -13,40 +13,49 @@ Unfortunately, the DFRobot BMX160 Library in Arduino does not have a designated 
 2.	Open “DFRobot_BMX160.cpp” and “DFRobot_BMX160.h” in a code editor. If you don't have a code editor already installed, you can [download VSCode here!](https://code.visualstudio.com/download)
 3.	In the .cpp file, find the begin() function and make the following changes below. Make sure to save! 
 
-Original:
-```c++
-bool DFRobot_BMX160::begin()
-{
-    _pWire->begin();
-    if (scan() == true){
-        ...
-    }
-    else
-        return false;
-}
-```
-Modified:
-```c++
-bool DFRobot_BMX160::begin( uint8_t addr)
-{
-    _pWire->begin();
-    _addr = addr; 
-    if (scan() == true){
-       ...
-    }
-    else
-        return false;
-}
-```
+      Original:
+      ```c++
+      bool DFRobot_BMX160::begin()
+      {
+          _pWire->begin();
+          if (scan() == true){
+              ...
+          }
+          else
+              return false;
+      }
+      ```
+      Modified:
+      ```c++
+      bool DFRobot_BMX160::begin( uint8_t addr)
+      {
+          _pWire->begin();
+          _addr = addr; 
+          if (scan() == true){
+             ...
+          }
+          else
+              return false;
+      }
+      ```
 4.	In the .h file, find the corresponding begin() function definition and the variable _addr. These should be at lines 988 and 1106 respectively. Make the following changes highlighted below.
-Original: 
-`    bool begin();`
-Modified:
-`    bool begin( ==uint8_t addr==);`
-Original: 
-`    uint8_t _addr == = 0x68==;`
-Modified: 
-`    uint8_t _addr;`
+   
+      Original:
+  	
+      `    bool begin();`
+
+      Modified:
+  	
+      `    bool begin( ==uint8_t addr==);`
+
+      Original:
+  	
+      `    uint8_t _addr == = 0x68==;`
+
+      Modified:
+
+  	
+      `    uint8_t _addr;`
 
 Now that the library has been modified, the begin function will set an address for each sensor and allow for differentiation between the data coming from the sensors. When you set up the sensors in Arduino, ensure that you specify the address of the sensor in your code as so:
 ```C
