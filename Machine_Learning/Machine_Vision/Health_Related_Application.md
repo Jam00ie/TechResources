@@ -38,13 +38,13 @@
 
  <h2> 2: Library Basic Implementations </h2>
 
-### [Pose Detection on an Image](mp_examples/draw_landmarks_on_image.py)
+### [Pose Detection on an Image](cv_examples/draw_landmarks_on_image.py)
  - Visit this code snippet for the simplest implementation that detects and draws the landmarks on an image. 
  - Think about how you would:
     1. Get the ```x y z``` coordinates and the ```visibility``` value of a specific landmark.
     2. Change the colour and thickness of the landmark labels and the connection lines.
     3. Calculate the angle at the left elbow joint.
 
-### [Pose Detection on LiveStream](mp_examples/draw_landmarks_on_live_stream.py)
+### [Pose Detection on LiveStream](cv_examples/draw_landmarks_on_live_stream.py)
  - Now that you know how to process one image, processing a video or livestream is easy since a video is just numerous frames of an image. 
  - Check out this code on how that is done, then you are ready to start your own journey of using CV and Mediapipe to complete your own project!
