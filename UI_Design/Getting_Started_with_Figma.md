@@ -8,6 +8,7 @@ Figma excels at:
 - Real time collaboration - multiple people can edit the same file at once
 
 Sign up or log in at: <a href="https://www.figma.com" target="_blank">Figma</a>
+
 **Figma beginner walkthrough:**  
 [![Figma Tutorial: A Crash Course for Beginners](https://img.youtube.com/vi/jQ1sfKIl50E/0.jpg)](https://www.youtube.com/watch?v=jQ1sfKIl50E)
 
