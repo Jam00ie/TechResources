@@ -22,7 +22,7 @@ Once you are finished with your 3D model, save and export it as an STL (*.stl) f
 The type of printers being used in this guide use a 3D printing process called Fused Deposition Modeling (FDM) printing, in which a thermoplastic filament is melted and extruded through a nozzle to build objects layer by layer.  
 
 ### 3.1. Slicer Software
-Before you can print, you need to upload your STL file into a slicer software, where you can customize your settings, such as print orientation, infill, and supports. 
+**Before you can print, you need to upload your STL file into a slicer software,** where you can customize your settings, such as print orientation, infill, and supports. 
 Depending on the 3D printer you use, you might need to use a different slicer:
 
 - [Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/)
