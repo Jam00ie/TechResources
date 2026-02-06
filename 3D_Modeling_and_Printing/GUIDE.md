@@ -1,6 +1,8 @@
 # 3D Modeling and Printing Guide 
 ## 1. Introduction 
-Welcome to a mini guide on 3D modeling and 3D printing! This guide will walk you through the basics of creating more mechanical-based solutions using 3D printing.  
+Welcome to a mini guide on 3D modeling and 3D printing! This guide will walk you through the basics of creating more mechanical-based solutions using 3D printing. 
+
+> **If you are participating in an IDEAs Clinic event, please make sure to read our [guide on 3D printing at RPC](3D_Printing_at_RPC.md) before proceeding.**
 
 ## 2. SolidWorks 
 ### 2.1. SolidWorks Installation 
